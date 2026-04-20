@@ -12,6 +12,16 @@ class Mahasiswa{ // Class Mahasiswa
     void printData(){ //void output
             cout << "NIM    : " << nim << endl;
             cout << "Nama    : " << nama << endl;
-            cout << "Nilai   : " << niilai << endl;
+            cout << "Nilai   : " << nilai << endl;
     }
 };// batas class
+
+//program utama
+int main (){
+    Mahasiswa mhs;
+    mhs.nim     = 2025;
+    mhs.nama    = "Widji";
+    mhs.nilai   = 85.5;
+
+    mhs.printData();
+}
