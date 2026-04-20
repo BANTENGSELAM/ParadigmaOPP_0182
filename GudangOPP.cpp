@@ -1,7 +1,7 @@
-#include <iostream>; // library
+#include <iostream>; // library 
 using namespace std;
 
-class Barang{
+class Barang{   //class barang
     public :
 
     //penambahan int
