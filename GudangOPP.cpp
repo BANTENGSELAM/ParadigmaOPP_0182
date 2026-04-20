@@ -4,7 +4,7 @@ using namespace std;
 class Barang{   //class barang
     public :
 
-    //penambahan int
+    //penambahan variable Barang
     string  nama;
     string  kategori;
     int     jumlah;
